@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    header {
+        width: 100%;
+        height: 50px;
+       /* background-color:#27242b;*/
+        border-bottom: #27242b 1px;
+        float: left;
+        
+        background-image: url(../Archive/assets/img/header_bg.jpg);
+   
+    
+    }
+    #premiere {
+        display: flex;
+        justify-content: space-between;
+         overflow: hidden;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+
+    }
+        .menu{
+            width: 220px;
+            height: 50px;
+            float: left;
+         }
+        ul{
+            height: 100%;
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+         a {
+            text-decoration: none;
+             display: flex;
+            color: white;
+            text-align: center;
+        }
+        .liaison {
+            font-family:  Raleway, Arial, sans-serif ;
+            text-align: right;
+            font-size: 12px;
+            width: 100px;
+      }
+      .logo{
+          width: 300px;
+          height: 50px;
+          float: left;
+          margin-right: 60px;
+          padding-top: 8px;
+          
+      }  
+      .lien{
+          width: 150px;
+          height: 50px;
+          float: left;
+      }  
+        .lien a {
+            color:#3d9f96 ;
+            font-family:  Raleway, Arial, sans-serif ;
+            font-size: 12px;
+            text-align: center;
+            display: flex;
+            padding-top: 20px;
+            text-decoration: underline;
+        }
+   
+    content  {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        
+    
+    }
+        .part1{
+             width: 100%;
+            height: 600px;
+            background-color: #27242b ;
+            
+            padding-top: 40px;
+        
+
+        }
+            .entete{
+                width: 80%;
+                height: auto;
+                margin: 0 auto;
+            }
+                 h1{
+                    text-align: center;
+                    color:#ababab;
+                    font-family: Open Sans, Arial, sans-serif ;
+                }
+                h1 span {
+                    font-weight: 700px;
+                    font-family: Raleway, Arial, sans-serif ;
+                    color: #fff;
+
+                }
+                 h5{
+                     text-align: center;
+                    color:#3d9f96  ;
+                    font-family: Open Sans, Arial, sans-serif ;
+                 }
+                p {
+                    text-align: center;
+                     color:#ababab;
+                    font-family: Raleway, Arial, sans-serif;
+                    font-size: small;
+                    font-style: normal;
+                 }
+            .button{
+                width: 20%;
+                height: 40px;
+                margin: 0 auto;
+                text-align: center;
+            }
+                .bouton{
+                    background-color: #3d9f96;
+                    color: #FFFFFF;
+                    border-radius: 50px;
+                    text-align: center;
+                    position: center;
+                    width: 150px;
+                    height: 40px;
+                    border: none;
+                    margin: 0 auto;
+                    
+                 }
+            .ordinateur {
+                width: 80%;
+                height: 350px;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 70px;
+            }
+    .part2 {
+             width: 100%;
+            height: 700px;
+            background-color: #FFFFFF  ;
+           
+         }
+         .reseausociau{
+             width: 100%;
+             height: 150px;
+             background-color: lightcyan;
+             align-items: center;
+            
+            
+            
+         }
+            .application{
+                height: 80px ;
+                width: 70%;
+                display: flex;
+               justify-content: space-between;
+                margin: 0 auto;
+               
+                
+            }
+            .application img{
+                margin: 20px;
+                justify-content: space-around;
+                display:inline-block;
+                /*height: 30px;*/
+                width: 50%;
+                padding-left: 10px;
+               
+            }
+        .text{
+            text-align: center;
+        }
+         .check {
+             width: 80%;
+             height: 150px;
+             background-color: #FFFFFF;
+             margin: 0 auto;
+         }
+            h2{
+                text-align: center;
+                color: #322f36 ;
+                font-family: Helvetica, Arial, sans-serif, 'Raleway';
+                font-weight: 200;
+                
+            }
+            h2 span{
+                color: #27242b;
+                font-weight: 700;
+                font-family:  'Raleway', Arial, sans-serif ;
+            }
+         .modification{
+             width: 100%;
+             height: 400px;
+            
+             padding-top: 20px;
+             background-image: url(../exercice2/Archive/assets/img/map_bg.png);
+            
+             
+         }
+            .service{
+                width: 80%;
+                margin: 0 auto;
+                height: 400px;
+                padding-top: 20px;
+            }
+                 .produit1 {
+                      height: 350px;
+                    width: 35%;
+            
+               
+                    float: left;
+                
+                   
+             }
+                    .sousservice1 {
+                         height: 120px;
+                        width: 200px;
+                    
+                        padding-left: 15px;
+                         
+
+                    }
+                    
+                        h4 {
+                            font-family: Helvetica, Arial, sans-serif, 'Raleway';
+                            color: #27242b;
+                            display: inline;
+                            text-align: justify;
+                            padding-bottom: 8px;
+                        }
+                
+                    .sousservice1 p{
+                        text-align: left;
+                        width: 80%;
+                    }
+                .produit2 {
+                    height: 350px;
+                    width: auto;
+                
+                    float: left;
+                    
+                    background-image: url(../exercice2/Archive/assets/img/image_190px_1.png);
+                    margin-left: 55px;
+                    text-align: center;
+
+                    
+                
+                }
+                    .change {
+                        display: none;
+
+                    }
+                    .change1{
+                        display: flex;
+                    }
+                    .produit2 img{
+                        padding-top: 150px;
+                        padding-bottom: 170px;
+                        padding-left: 40px;
+                        padding-right: 35px;
+                        text-align: center;
+                    }
+                
+                .produit3 {
+                    height: 350px;
+                    width: 35%;
+                
+                    float: right;
+                    
+                    margin-left: 0px;
+                    
+                
+                }
+                    .sousservice2 {
+                        height: 120px;
+                        width: 200px;
+                    
+                    float: right;
+
+                    }
+                    .sousservice2 p{
+                        text-align: right;
+                        width: 80%;
+                        margin-top: 20px;
+                    }
+        #part3 {
+            background-color: #27242b;
+            width: 100%;
+            padding: 32px 0;
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+          
+       
+         }
+            .changement {
+                width: 80%;
+                height: 300px;
+                margin: 0 auto;
+                padding-right: 200px;
+                padding-left: 200px;
+               
+            }
+                .changement img{
+                   text-align: center;
+                 
+                   padding-right: 200px;
+                   padding-left: 200px;
+                 
+                }
+                h3{
+                    font-family: Open Sans, Arial, sans-serif ;
+                    color: #FFFFFF;
+                    text-align: center;
+                    font-weight: 100;
+                    font-size: 16px;
+                }
+        .part4{
+            width: 100%;
+            height: 500px;
+            background-color: #FFFFFF  ;
+            margin-bottom: 150px;
+            
+      
+        }
+            .part4 h2{
+                text-align: left;
+                padding-left: 125px;
+            }
+            .screenhots{
+                width: 80%;
+                height: 350px;
+                margin: 0 auto;
+                display: flex;
+            }
+                .screenhots1 {
+                    width: 35%;
+                    height: 350px;
+                    margin: 0 2% 0 0;
+                }
+                .screenhots2 {
+                    width: 35%;
+                    height: 350px;
+                    margin: 0 2% 0 0;
+                }
+        .part5{
+            width: 80%;
+            height: 300px;
+            background-color: #FFFFFF  ;
+            margin: 0 auto;
+        
+        }
+            .division1{
+                background-image: url(../exercice2/Archive/assets/img/dzdzd.png);
+                width: 30%;
+                height: 270px;
+                float: left;
+                
+        
+            }
+                .division1 img{
+                    text-align: center;
+                    margin: 0 auto;
+                    padding-top: 100px;
+                    padding-left: 100px;
+                    padding-right: 40px;
+                    padding-left: 40px;
+                }
+            .division2{
+                width: 50%;
+                height: 270px;
+                float: left;
+                margin-left: 60px;
+
+            }
+            .division2 h2{
+                text-align: left;
+            }
+            .division2 p{
+                text-align: left;
+                width: 50%;
+                line-height: 2em;
+            }
+           
+        .part6 {
+            width: 80%;
+            height: 400px;
+            background-color: #FFFFFF  ;
+            margin: 0 auto;
+            margin-top: 30px;
+     
+        }
+            .composition1{
+                width: 40%;
+                height: 350px;
+                float: left;
+            }
+            .composition1 h2{
+                text-align: left;
+            }
+            .composition1 p{
+                text-align: left;
+                width: 70%;
+                line-height: 2em;
+            }
+            .composition2{
+               
+                float: left;
+                width: 21%;
+                height: 319px;
+            }
+        footer{
+            width: 100%;
+            margin-top: 50px;
+            height: 400px;
+            
+        }
+            .footer1{
+                width: 80%;
+                margin: 0 auto;
+                height: 250px;
+            }
+            .suite1{
+                width: 30%;
+                height: 200px;
+                float: left;
+            }
+                .suite1 p{
+                    text-align: left;
+                    width: 80%;
+                    line-height: 2em;
+                }
+            .suite2{
+                width: 20%;
+                height: 200px;
+                float: left;
+            }   
+                .suite2 h2{
+                    text-align: left;
+                    font-weight: 700;
+                }
+                .suite2 p{
+                    text-align: left;
+                    line-height: 2em;
+                }
+            .suite3 {
+                width: 30%;
+                height: 200px;
+                float: left ;
+                
+            }
+                .suite3 p{
+                    text-align: left;
+                    width: 70%;
+                    line-height: 2em;
+                }
+                .suite3 h2{
+                    text-align: left;
+                    font-weight: 700;
+                }
+            .footer2{
+                width: 80%;
+                height: 50px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+            }
+                .dernier{
+                    display: flex;
+                    align-items:center ;
+                    justify-content: space-around;
+                   
+                    width: 15%;
+                    margin-left: 250px;
+                }  
+                .footer2 p{
+                    text-align: left;
+                } 
+
+    
+    

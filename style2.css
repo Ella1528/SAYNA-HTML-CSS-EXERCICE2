@@ -1,0 +1,364 @@
+@media screen and (max-width:650px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .lien a, .liaison{
+        display: none;
+    }
+    .button{
+        width: 20%;
+        height: 40px;
+        margin: 0 auto;
+        text-align: center;
+        padding-right: 20px;
+    }
+    .application{
+        /*height: 80px ;*/
+        width: 100%;
+        display: flex;
+       
+        
+    }
+    .application img{
+        
+        display:inline-block;
+        /*height: 30px;*/
+        width: 6%;
+       
+    }
+    .check {
+        width: 80%;
+        height: 150px;
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .check p{
+        font-size: small;
+        width: 66%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .modification{
+        width: 100%;
+        /*height: 400px;*/
+       
+        padding-top: 20px;
+        
+       
+        
+    }
+       .service{
+           width: 100%;
+           
+           height: 400px;
+           padding-top: 20px;
+       }
+            .produit1 {
+               /*height: 350px;*/
+               width: 100%;
+              
+                     
+        }
+        .sousservice1 {
+           /*height: 120px;*/
+           width:100%;
+           text-align: center;
+       
+       }
+            .sousservice1 p {
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                /*padding-left: 180px;*/
+                width: auto;
+                
+            }
+    .produit2 {
+        height: 280px;
+         width: 23%;
+         margin: 0 auto;
+         background-image: url(../exercice2/Archive/assets/img/iphone.png);
+        text-align: center;
+        margin-left: 270px;
+        margin-bottom: 20px;
+                
+            
+    }
+        .change {
+            display: flex;
+        }
+        .change1{
+            display: none;
+        }
+    .produit3 {
+        height: 350px;
+        width: 100%;
+        text-align: center;
+
+    
+    }
+        .sousservice2 {
+            /*height: 120px;*/
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+        }
+        .sousservice2 p{
+            text-align: right;
+            width: max-content;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+     #part3 {
+            background-color: #27242b;
+            width: 100%;
+            padding: 32px 0;
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+          
+       
+    }
+    .part4{
+        /*display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        /*height: 500px;
+        background-color: #FFFFFF  ;
+        margin-bottom: 150px;
+        */
+        display: block;
+        margin-bottom: 500px;
+        
+  
+    }
+    .part4 h2 {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 60px;
+    }
+    .screenhots{
+        width: 100%;
+        /*height: 350px;*/
+        display: block;
+        text-align: center;
+        
+    }
+        .screenhots1 {
+            width: 50%;
+            height: 250px;
+            
+            margin-left: 60px;
+            display: inline-block;
+            flex-direction: column;
+            margin-bottom: 50px;
+         
+        } 
+        .screenhots2 {
+            display: none;
+        }
+        .screenhots1 img{
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+         .part5{
+             width: 100%;
+             /*height: 300px;*/
+            background-color: #FFFFFF  ;
+           
+            margin-top: 500px;
+            display: block;
+            
+            } 
+            .division1{
+                background-image: url(../exercice2/Archive/assets/img/Composant_1_2.png);
+                width: 47%;
+                height: 270px;
+                display: block;
+                text-align: center;
+                margin-left: 170px;
+                margin-right: 200px;
+                margin-bottom: 50px;
+                margin-top: 50px;
+            
+            }
+            .division1 img{
+                display: none;
+            }
+            .division2{
+                width: 80%;
+                height: 270px;
+        
+                margin-left: 60px;
+                display: block;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 100px;
+
+            }
+            .division2 h2{
+                text-align: center;
+            }
+            .division2 p{
+                text-align: center;
+                width: 80%;
+                margin-left: 50px;
+
+            }
+            .part6 {
+                width: 100%;
+                /*height: 400px;*/
+                background-color: #FFFFFF  ;
+          
+                margin-top: 550px;
+                display: flex;
+                flex-direction: column-reverse;
+
+                /*flex-direction: column-reverse; */
+        
+                
+            }
+            .composition1{
+                width: 100%;
+                /*height: 350px;*/
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 200px;
+                margin-bottom: 100px;
+                padding-top: 320px;
+                
+
+            }
+            .composition1 h2{
+                text-align: center;
+            }
+            .composition1 p{
+                text-align: center;
+                width: 70%;
+            }
+            .composition2 {
+                display: flex;
+                width: 33%;
+                /*height: 319px;*/
+                margin-top: 800px;
+                text-align: center;
+                margin-right: 215px;
+                margin-left: 215px;
+                flex-direction: column;
+                
+
+                
+            }
+            .composition2 img{
+                margin-bottom: 600px;
+                margin-top: 400px;
+            }
+            footer{
+                width: 100%;
+                margin-top: 50px;
+                /*height: 400px;*/
+                margin-top: 100px;
+                margin-bottom: 50px;
+                
+            }
+            .footer1{
+                width: 100%;
+                
+                /*height: 250px;*/
+                display: block;
+                margin-bottom: 100px;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            .suite1{
+                width: 100%;
+                height: 200px;
+                
+            }
+                .suite1 p{
+                    text-align: center;
+                    width: 75%;
+                    padding-left: 130px;
+                }
+            .suite2{
+                width: 100%;
+                height: 200px;
+                margin-top: 30px;
+                
+            }   
+                .suite2 h2{
+                    text-align: center;
+                    font-weight: 700;
+                }
+                .suite2 p{
+                    text-align: center;
+                }
+            .suite3 {
+                width: 100%;
+                height: 280px;
+              
+            }
+            .suite3 p{
+                text-align: center;
+                width: 65%;
+                padding-left: 220px;
+            }
+            .suite3 h2{
+                text-align: center;
+                font-weight: 700;
+            }
+            .footer2{
+                width: 100%;
+                /*height: 50px;*/
+                
+                display: block;
+                align-items: center;
+                margin-top: 100px;
+            }
+            .dernier{
+                display: flex;
+                align-items:center ;
+                justify-content: space-around;
+               
+                width: 80%;
+                margin-left: 50px;
+                margin-right: 50px;
+            }  
+            .footer2 p{
+                text-align: center;
+                margin-bottom: 20px;
+            } 
+
+}
+
+
+
